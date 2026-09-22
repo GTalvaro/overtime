@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me - Alvaro Huerta</title>
+
+    <style>
+      body {
+        background-color: #6f79e0;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        color: #222;
+      }
+
+      /* Navigation Bar */
+      nav {
+        background-color: #20244f;
+        padding: 15px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #aeb5ff;
+      }
+
+      /* Main Section */
+      .container {
+        width: 80%;
+        max-width: 900px;
+        margin: 40px auto;
+      }
+
+      .hero {
+        background-color: white;
+        text-align: center;
+        padding: 35px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        color: #20244f;
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #20244f;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      /* Cards */
+      .cards {
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
+      }
+
+      .card {
+        background-color: white;
+        padding: 25px;
+        border-radius: 15px;
+        flex: 1;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        transition: 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      li {
+        margin: 10px 0;
+      }
+
+      /* Next Page Button */
+      .next-page-container {
+        text-align: center;
+        margin: 40px 0;
+      }
+
+      .next-page-button {
+        display: inline-block;
+        background-color: #20244f;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .next-page-button:hover {
+        background-color: #4b51a3;
+        transform: scale(1.05);
+      }
+
+      /* Footer */
+      footer {
+        background-color: #20244f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+
+      @media (max-width: 700px) {
+        .cards {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#goal">My Goal</a>
+    </nav>
+
+    <div class="container">
+      <section class="hero" id="about">
+        <h1>Hi, I'm Alvaro Huerta!</h1>
+
+        <p>
+          Welcome to my personal website! I'm interested in sports,
+          technology, and learning new things.
+        </p>
+      </section>
+
+      <div class="cards">
+        <section class="card" id="hobbies">
+          <h2>My Hobbies</h2>
+
+          <ul>
+            <li>Basketball</li>
+            <li>Sports</li>
+            <li>Electronics</li>
+            <li>Going outside</li>
+          </ul>
+        </section>
+
+        <section class="card" id="goal">
+          <h2>My Future Goal</h2>
+
+          <p>
+            In the future, I want to become an engineer. I want to learn more
+            about technology and build things that can help people.
+          </p>
+        </section>
+      </div>
+
+      <section class="card" style="margin-top: 25px">
+        <h2>A Little About Me</h2>
+
+        <p>
+          I enjoy staying active, playing basketball, and learning about
+          electronics. I hope to use my interests in technology and engineering
+          to create cool and useful things in the future.
+        </p>
+      </section>
+
+      <!-- Next Page Button -->
+      <div class="next-page-container">
+        <a href="obsession.Html" class="next-page-button">
+          Next Page 
+        
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Thanks for visiting my website!</p>
+    </footer>
+  </body>
+</html>
